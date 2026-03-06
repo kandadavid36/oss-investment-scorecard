@@ -96,6 +96,7 @@ Or reach Lucy directly:
 |---------|-------|---------|--------------|------|
 | vLLM / Inferact | 8.9/10 | 🟢 Strongly Recommend | @lucycxy | 2026-03 |
 | Hugging Face | 8.35/10 | 🟢 Strongly Recommend | @lucycxy | 2026-03 |
+| [WFGY](https://github.com/el09xccxy-stack/oss-investment-scorecard/issues/1) | 5.8/10 | 🟠 Watch | @onestardao | 2026-03 |
 | *(your project here)* | | | | |
 
 *This table is updated as community submissions are reviewed. [Submit yours →](../../issues/new?template=submit-evaluation.md)*
